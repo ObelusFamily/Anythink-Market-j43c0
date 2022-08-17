@@ -59,3 +59,24 @@ body {
 .user-info {
   min-width: 800px;
 }
+
+.search-box-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+#search-box {
+  margin-left: 8px;
+  min-width: 300px;
+  border-radius: 3px;
+  border-color: transparent;
+  padding: 4px 8px;
+}
+
+.search-box-wrapper img {
+  position: absolute;
+  right: 6px;
+  top: 8px;
+  height: 20px;
+  width: 20px;
+}
